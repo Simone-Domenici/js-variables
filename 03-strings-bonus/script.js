@@ -23,7 +23,7 @@ console.log(cityReplaced); // Output:  "New Delhi"
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
 const cityNameConcat =
-`${city} ${cityName}
+`${city} ${cityName.slice(0,3)+'y'}
 `;
 console.log(cityNameConcat); // Output: "New York City"
 

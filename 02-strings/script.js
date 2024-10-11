@@ -10,6 +10,14 @@ console.log('name:',name)
 // un numero, una stringa e un valore booleano.
 // Stampa tutti i valori nella console.
 
+let number = 3
+let text = 'tre'
+let bool = true
+
+console.log('number:',number)
+console.log('text:',text)
+console.log('bool:',bool)
+
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
